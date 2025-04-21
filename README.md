@@ -8,6 +8,9 @@
 ## Description
 The repo is to test the file upload scenario. The repo dynamically uploads the file to BrowserStack from a local file path. The path can be updated in line 14 of conf/upload-media.js file. The repo uses onPrepare hook method to run the fileUpload function before the test starts. To emulate the repo, users can copy the onPrepare hook part from the conf/upload.conf.js and the actual upload function in conf/upload-media.js
 
+## Pre-Requisite
+* Minimum Node version 20.17
+
 ## Setup
 * Clone the repo
 * Install dependencies `npm install`
